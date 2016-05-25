@@ -20,8 +20,9 @@ This will bundle all the files and open a web server at [http://localhost:8080](
 If you need run this repo as cordova app, use the following commands:
 
 ```
+cordova platform add android
+cordova platform add ios
 cordova requirements # you should have Android SDK or iOS SDK
-cordova prepare
 npm run dev:android
 npm run dev:ios
 ```
