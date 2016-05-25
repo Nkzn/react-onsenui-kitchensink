@@ -16,3 +16,14 @@ npm run dev
 ```
 
 This will bundle all the files and open a web server at [http://localhost:8080](http://localhost:8080).
+
+If you need run this repo as cordova app, use the following commands:
+
+```
+cordova requirements # you should have Android SDK or iOS SDK
+cordova prepare
+npm run dev:android
+npm run dev:ios
+```
+
+This will bundle all the files and deploy a cordova app into devices or emulators/simulators.
